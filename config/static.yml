@@ -1,0 +1,24 @@
+Application:
+  Environment: "qa"
+
+Flags:
+  EnablePreCallLocationCheck: true
+
+MapOfFile:
+  File1:
+    Key1: value1
+  File2:
+    Key1: value1
+  File3:
+    Key1: value1
+
+Test1:
+  Test2:
+    Test3:
+      MapOfFile:
+        File1:
+          Key1: value1
+        File2:
+          Key1: value1
+        File3:
+          Key1: value1
